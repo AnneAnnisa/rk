@@ -26,3 +26,11 @@ Route::get('/register', function () {
 Route::get('/home_admin', function () {
 	return view('admin.home_admin');
 });
+
+Route::get('/penguji', function(){
+	return view('penguji');
+});
+
+Route::get('/pendidikan', function(){
+	return view('pendidikan');
+});
