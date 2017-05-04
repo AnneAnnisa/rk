@@ -58,6 +58,9 @@ Route::get('/datawawancara', function(){
 Route::get('/wawancara', function(){
 	return view('wawancara');
 });
+Route::get('/pendaftar', function(){
+	return view('pendaftar');
+});
 Route::get('/wawancara/diterima', function(){
 	return view('wawancara1');
 });
