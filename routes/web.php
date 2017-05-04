@@ -48,3 +48,11 @@ Route::get('/seleksi/gagal', function(){
 Route::get('/seleksi/hapus', function(){
 	return view('seleksi1');
 });
+
+
+Route::get('/wawancara', function(){
+	return view('wawancara');
+});
+Route::get('/wawancara/diterima', function(){
+	return view('wawancara1');
+});

@@ -75,11 +75,9 @@
                     <td>70</td>
                     <td>
                       <!-- TOMBOL WAWANCARA -->
-                      <a href="#pendf" class="hehe" id="hehe1" data-temp="1" data-wanid="1" data-toggle="modal" data-target="#hasil1" style="color:orange"\><b>Hasil Wawancara</b></a>
-                      <a href="" class="hehe" id="waw1" data-temp="1" data-pendi="1" data-toggle="modal" data-target="#waw1"><span class="glyphicon glyphicon-edit" title="lakukan wawancara" style="color:green"></span></a>
-                      <a href="#pendf" class="hehe" id="hehe1" data-temp="1" data-pendid="1" data-toggle="modal" data-target="#nilai1"\><span class='fa fa-file' title="lihat data" style="color:navy"></span></a>
+                          <label style="color:blue">DITERIMA</label>
+                          <a href="{{ url('/wawancara') }}"><span class="glyphicon glyphicon-remove" style="color:red" title="cancel"></span></a>
 
-                      <a href="{{url('/wawancara/diterima')}}"><span class="glyphicon glyphicon-ok" style="color:green" title="Diterima"></span></a>
                     </td>
 
 <!-- MODAL HASIL WAWANCARA -->
