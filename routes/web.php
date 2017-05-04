@@ -34,3 +34,17 @@ Route::get('/penguji', function(){
 Route::get('/pendidikan', function(){
 	return view('pendidikan');
 });
+
+
+Route::get('/seleksi', function(){
+	return view('seleksi');
+});
+Route::get('/seleksi/lolos', function(){
+	return view('seleksiLolos');
+});
+Route::get('/seleksi/gagal', function(){
+	return view('seleksiGagal');
+});
+Route::get('/seleksi/hapus', function(){
+	return view('seleksi1');
+});
