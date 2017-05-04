@@ -133,16 +133,16 @@
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="pendaftar"><i class="fa fa-circle-o"></i> Seluruh Data</a></li>
-                <li><a href="wawancara"><i class="fa fa-circle-o"></i> Data Wawancara</a></li>
-                <li><a href="pendaftar"><i class="fa fa-circle-o"></i> Data Diterima</a></li>
+                <li><a href="{{url('pendaftar')}}"><i class="fa fa-circle-o"></i> Seluruh Data</a></li>
+                <li><a href="{{url('datawawancara')}}"><i class="fa fa-circle-o"></i> Data Wawancara</a></li>
+                <li><a href="{{url('penerima')}}"><i class="fa fa-circle-o"></i> Data Diterima</a></li>
               </ul>
             </li>
             <li>
-              <a href="penguji"><i class="fa fa-circle-o"></i> Penguji</a>
+              <a href="{{url('penguji')}}"><i class="fa fa-circle-o"></i> Penguji</a>
             </li>            
             <li>
-              <a href="pendidikan"><i class="fa fa-circle-o"></i> Pendidikan</a>
+              <a href="{{url('pendidikan')}}"><i class="fa fa-circle-o"></i> Pendidikan</a>
             </li>
 <!-- 
             <li><a href="#"><i class="fa fa-circle-o"></i> Universitas
@@ -183,7 +183,7 @@
         <li><a href="{{url('/seleksi')}}"><i class="fa fa-book"></i> <span>Seleksi</span></a></li>
         <li><a href="{{url('/wawancara')}}"><i class="fa fa-book"></i> <span>Wawancara</span></a></li>
         <!-- <li><a href="{{url('/hasilWawancara')}}"><i class="fa fa-book"></i> <span>Hasil Wawancara</span></a></li> -->
-        <li><a href="pendaftar"><i class="fa fa-book"></i> <span>Penerima</span></a></li>
+        <li><a href="{{url('penerima')}}"><i class="fa fa-book"></i> <span>Penerima</span></a></li>
 
 <!--         <li class="header">Peserta</li>
         <li><a href=" {{url('/peserta/cek')}} "><i class="fa fa-book"></i> <span>Cek Status</span></a></li>

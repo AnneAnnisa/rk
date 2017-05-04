@@ -32,7 +32,7 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Pendaftar yang diterima
+      Wawancara
     </h1>
   </section>
 
@@ -42,7 +42,7 @@
           <div class="col-md-12">
             <div class="box">
               <div class="box-header">
-                <h3 class="box-title">Data Peserta LKMM TL</h3>
+                <h3 class="box-title">Data Peserta Tahap Wawancara</h3>
               </div>
               <div class="box-body table-responsive" style="overflow: auto; overflow-y:hidden; max-height: 100%;">
 
@@ -76,7 +76,19 @@
                     <td>
                       <!-- TOMBOL WAWANCARA -->
                       <a href="#pendf" class="hehe" id="hehe1" data-temp="1" data-wanid="1" data-toggle="modal" data-target="#hasil1" style="color:orange"\><b>Hasil Wawancara</b></a>
-                      
+
+                      <a href="{{url('/wawancara/diterima')}}"><span class="glyphicon glyphicon-ok" style="color:green" title="Diterima"></span></a>
+                    </td>
+                  <tr data-divisi="2">
+                    <td>Budi</td>
+                    <td>5114100999</td>
+                    <td>Institut Teknologi</td>
+                    <td>20 Januari 2017</td>
+                    <td>70</td>
+                    <td>
+                      <!-- TOMBOL WAWANCARA -->
+                          <label style="color:blue">DITERIMA</label>
+
                     </td>
 
 <!-- MODAL HASIL WAWANCARA -->

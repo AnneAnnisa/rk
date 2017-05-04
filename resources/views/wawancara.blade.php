@@ -81,7 +81,18 @@
 
                       <a href="{{url('/wawancara/diterima')}}"><span class="glyphicon glyphicon-ok" style="color:green" title="Diterima"></span></a>
                     </td>
+                  <tr data-divisi="2">
+                    <td>Budi</td>
+                    <td>5114100999</td>
+                    <td>Institut Teknologi</td>
+                    <td>20 Januari 2017</td>
+                    <td>70</td>
+                    <td>
+                      <!-- TOMBOL WAWANCARA -->
+                          <label style="color:blue">DITERIMA</label>
+                          <a href="{{ url('/wawancara') }}"><span class="glyphicon glyphicon-remove" style="color:red" title="cancel"></span></a>
 
+                    </td>
 <!-- MODAL HASIL WAWANCARA -->
                       <div class="modal fade" id="hasil1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                         <div class="modal-dialog" role="document">

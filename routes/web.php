@@ -34,6 +34,9 @@ Route::get('/penguji', function(){
 Route::get('/pendidikan', function(){
 	return view('pendidikan');
 });
+Route::get('/penerima', function(){
+	return view('penerima');
+});
 
 
 Route::get('/seleksi', function(){
@@ -49,7 +52,9 @@ Route::get('/seleksi/hapus', function(){
 	return view('seleksi1');
 });
 
-
+Route::get('/datawawancara', function(){
+	return view('datawawancara');
+});
 Route::get('/wawancara', function(){
 	return view('wawancara');
 });
