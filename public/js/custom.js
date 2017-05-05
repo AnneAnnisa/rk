@@ -41,7 +41,7 @@ function login() {
 function register() {
 	swal({
 		title: 'Pendaftaran Peserta Sukses',
-		text: 'Silahkan Login',
+		text: 'Silahkan Tunggu Pengumuman Selanjutnya',
 		type: 'success'
 	}).then(function() {
 		window.location = '/login';

@@ -26,30 +26,68 @@
   <![endif]-->
 </head>
 <body class="hold-transition register-page">
-<div class="register-box">
+<div class="register-box" style="width: 600px">
   <div class="register-logo">
-    <a href="../../index2.html">Halaman Pendaftaran<br/><b>SILKMMTL</b></a>
+    <a href="../../index2.html">Halaman Pendaftaran Peserta<br/><b>SILKMMTL</b></a>
   </div>
 
   <div class="register-box-body">
     <!-- <p class="login-box-msg">Register a new membership</p> -->
 
     <form action="../../index.html" method="post">
-      <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Full name">
-        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nomor Induk Mahasiswa (NIM)</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="5114100024">
       </div>
-      <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Email">
-        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nama Lengkap</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Anne Annisa Aulia">
       </div>
-      <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password">
-        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      <div class="form-group">
+        <label>Universitas Asal</label>
+        <select class="form-control">
+          <option>Institut Teknologi Sepuluh Nopember (ITS)</option>
+          <option>Universitas Gadjah Mada (UGM)</option>
+          <option>Universitas Sebelas Maret (UNS)</option>
+        </select>
       </div>
-      <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Retype password">
-        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+      <div class="form-group">
+        <label>Fakultas</label>
+        <select class="form-control">
+          <option>Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)</option>
+          <option>Fakultas Tekni Sipil dan Perencanaan (FTSP)</option>
+          <option>Fakultas Teknologi Industri (FTI)</option>
+          <option>Fakultas Teknologi Kelautan (FTK)</option>
+          <option>Fakultas Teknologi Informasi (FTIf)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Alamat Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="anne@outlook.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nomor Telepon</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="081357653904">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Alamat Tempat Tinggal</label>
+        <textarea class="form-control" rows="3" placeholder="Gebang Wetan No. 21, Sukolilo Surabaya"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Motivasi Mendaftar LKMM-TL 2017</label>
+        <textarea class="form-control" rows="3" placeholder="Saya ingin mengikuti LKMM-TL 2017 karena ..."></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">File CV</label>
+        <input type="file" id="exampleInputFile">
+
+        <p class="help-block">Format file cv berupa .pdf</p>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">Foto</label>
+        <input type="file" id="exampleInputFile">
+
+        <p class="help-block">Format file cv berupa .jpg atau .jpeg dengan ukuran file maksimal 2 Mb</p>
       </div>
       <div class="row">
         <div class="col-xs-8">
@@ -71,7 +109,7 @@
     	<button class="btn btn-primary btn-block btn-flat" onclick="register();">Register</button>
     </div>
 
-    <a href="/login" class="text-center">Saya sudah terdaftar sebagai peserta</a>
+    <!-- <a href="/login" class="text-center">Saya sudah terdaftar sebagai peserta</a> -->
   </div>
   <!-- /.form-box -->
 </div>
