@@ -57,3 +57,13 @@ function statusGagalBerkas() {
 		window.location = '/statusGagalBerkas';
 	});
 }
+
+function statusGagalWawancara() {
+	swal({
+		title: 'Maaf Anda Gagal Lolos Tahap Wawancara',
+		text: '',
+		type: 'warning'
+	}).then(function() {
+		window.location = '/statusGagalWawancara';
+	});
+}
