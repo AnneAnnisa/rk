@@ -34,7 +34,7 @@ function login() {
 		text: 'Selamat Datang Admin',
 		type: 'success'
 	}).then(function() {
-		window.location = '/home_admin';
+		window.location = '/dashboardAdmin';
 	});
 }
 

@@ -23,8 +23,8 @@ Route::get('/register', function () {
 	return view('register');
 });
 
-Route::get('/home_admin', function () {
-	return view('admin.home_admin');
+Route::get('/dashboardAdmin', function () {
+	return view('dashboardAdmin');
 });
 
 Route::get('/penguji', function(){
