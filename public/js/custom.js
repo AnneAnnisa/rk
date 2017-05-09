@@ -38,3 +38,13 @@ function statusLolosBerkas() {
 	});
 }
 
+function statusLolosWawancara() {
+	swal({
+		title: 'Selamat Anda Lolos Tahap Wawancara',
+		text: 'Anda dinyatakan resmi sebagai peserta LKMM TL',
+		type: 'success'
+	}).then(function() {
+		window.location = '/statusLolosWawancara';
+	});
+}
+
