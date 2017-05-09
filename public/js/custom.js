@@ -47,3 +47,13 @@ function register() {
 		window.location = '/login';
 	});
 }
+
+function signout() {
+	swal({
+		title: 'Berhasil Logout',
+		text: 'Logout sukses',
+		type: 'success'
+	}).then(function() {
+		window.location = '/login';
+	});
+}

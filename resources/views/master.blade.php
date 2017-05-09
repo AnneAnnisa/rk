@@ -20,6 +20,7 @@
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="{{url('/css/skins/_all-skins.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="css/sweetalert2.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +75,7 @@
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  <a class="btn btn-default btn-flat" onclick="signout();">Sign out</a>
                 </div>
               </li>
             </ul>
@@ -435,6 +436,9 @@
     });
   });
 </script>
+<link rel="stylesheet" href="{{ URL::asset('/js/bootstrap.min.js') }}">
+<script type="text/javascript" src="js/sweetalert2.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 </html>
