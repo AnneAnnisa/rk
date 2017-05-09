@@ -23,6 +23,10 @@ Route::get('/register', function () {
 	return view('register');
 });
 
+Route::get('/statusLolosBerkas', function () {
+	return view('statusLolosBerkas');
+});
+
 Route::get('/dashboardAdmin', function () {
 	return view('dashboardAdmin');
 });
