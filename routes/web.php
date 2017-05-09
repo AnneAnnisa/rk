@@ -31,6 +31,10 @@ Route::get('/statusLolosWawancara', function () {
 	return view('statusLolosWawancara');
 });
 
+Route::get('/statusGagalBerkas', function () {
+	return view('statusGagalBerkas');
+});
+
 Route::get('/dashboardAdmin', function () {
 	return view('dashboardAdmin');
 });

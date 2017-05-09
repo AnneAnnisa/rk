@@ -48,3 +48,12 @@ function statusLolosWawancara() {
 	});
 }
 
+function statusGagalBerkas() {
+	swal({
+		title: 'Maaf Anda Gagal Lolos ke Tahap Wawancara',
+		text: '',
+		type: 'warning'
+	}).then(function() {
+		window.location = '/statusGagalBerkas';
+	});
+}
