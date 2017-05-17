@@ -71,7 +71,7 @@
     	<button class="btn btn-primary btn-block btn-flat" onclick="register();">Register</button>
     </div>
 
-    <a href="/login" class="text-center">Saya sudah terdaftar sebagai peserta</a>
+    <a href="{{url('/login')}}" class="text-center">Saya sudah terdaftar sebagai peserta</a>
   </div>
   <!-- /.form-box -->
 </div>
