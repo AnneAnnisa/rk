@@ -14,7 +14,7 @@ function register() {
 		text: 'Silahkan Tunggu Pengumuman Selanjutnya',
 		type: 'success'
 	}).then(function() {
-		window.location = '/login';
+		window.location = '/statusLolosBerkas';
 	});
 }
 

@@ -109,11 +109,10 @@
     	<button class="btn btn-primary btn-block btn-flat" onclick="register();">Register</button>
     </div>
 
-<<<<<<< HEAD
+
     <a href="{{url('/login')}}" class="text-center">Saya sudah terdaftar sebagai peserta</a>
-=======
+
     <!-- <a href="/login" class="text-center">Saya sudah terdaftar sebagai peserta</a> -->
->>>>>>> 61fc628ccd1d59cefe1672c2d98edf0a17aeb5af
   </div>
   <!-- /.form-box -->
 </div>
