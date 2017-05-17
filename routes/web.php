@@ -23,8 +23,24 @@ Route::get('/register', function () {
 	return view('register');
 });
 
-Route::get('/home_admin', function () {
-	return view('admin.home_admin');
+Route::get('/statusLolosBerkas', function () {
+	return view('statusLolosBerkas');
+});
+
+Route::get('/statusLolosWawancara', function () {
+	return view('statusLolosWawancara');
+});
+
+Route::get('/statusGagalBerkas', function () {
+	return view('statusGagalBerkas');
+});
+
+Route::get('/statusGagalWawancara', function () {
+	return view('statusGagalWawancara');
+});
+
+Route::get('/dashboardAdmin', function () {
+	return view('dashboardAdmin');
 });
 
 Route::get('/penguji', function(){
@@ -33,4 +49,34 @@ Route::get('/penguji', function(){
 
 Route::get('/pendidikan', function(){
 	return view('pendidikan');
+});
+Route::get('/penerima', function(){
+	return view('penerima');
+});
+
+
+Route::get('/seleksi', function(){
+	return view('seleksi');
+});
+Route::get('/seleksi/lolos', function(){
+	return view('seleksiLolos');
+});
+Route::get('/seleksi/gagal', function(){
+	return view('seleksiGagal');
+});
+Route::get('/seleksi/hapus', function(){
+	return view('seleksi1');
+});
+
+Route::get('/datawawancara', function(){
+	return view('datawawancara');
+});
+Route::get('/wawancara', function(){
+	return view('wawancara');
+});
+Route::get('/pendaftar', function(){
+	return view('pendaftar');
+});
+Route::get('/wawancara/diterima', function(){
+	return view('wawancara1');
 });
