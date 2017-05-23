@@ -28,7 +28,7 @@
 <body class="hold-transition register-page">
 <div class="register-box" style="width: 800px">
   <div class="register-logo">
-    <a href="../../index2.html">Halaman Cek Status Peserta<br/><b>SILKMMTL</b></a>
+    <a href="statusGagalWawancara">Halaman Cek Status Peserta<br/><b>SILKMMTL</b></a>
   </div>
 
   <div class="register-box-body">

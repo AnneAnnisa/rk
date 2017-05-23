@@ -4,7 +4,7 @@ function login() {
 		text: 'Selamat Datang Admin',
 		type: 'success'
 	}).then(function() {
-		window.location = '/dashboardAdmin';
+		window.location = 'dashboardAdmin';
 	});
 }
 
@@ -14,7 +14,7 @@ function register() {
 		text: 'Silahkan Tunggu Pengumuman Selanjutnya',
 		type: 'success'
 	}).then(function() {
-		window.location = '/statusLolosBerkas';
+		window.location = 'statusLolosBerkas';
 	});
 }
 
@@ -24,7 +24,7 @@ function signout() {
 		text: 'Logout sukses',
 		type: 'success'
 	}).then(function() {
-		window.location = '/login';
+		window.location = 'login';
 	});
 }
 
@@ -34,7 +34,7 @@ function statusLolosBerkas() {
 		text: 'Wawancara akan dilakukan di selasar perpustakaan ITS pada 10 Mei 2017',
 		type: 'success'
 	}).then(function() {
-		window.location = '/statusLolosBerkas';
+		window.location = 'statusLolosBerkas';
 	});
 }
 
@@ -44,7 +44,7 @@ function statusLolosWawancara() {
 		text: 'Anda dinyatakan resmi sebagai peserta LKMM TL',
 		type: 'success'
 	}).then(function() {
-		window.location = '/statusLolosWawancara';
+		window.location = 'statusLolosWawancara';
 	});
 }
 
@@ -54,7 +54,7 @@ function statusGagalBerkas() {
 		text: '',
 		type: 'warning'
 	}).then(function() {
-		window.location = '/statusGagalBerkas';
+		window.location = 'statusGagalBerkas';
 	});
 }
 
@@ -64,6 +64,6 @@ function statusGagalWawancara() {
 		text: '',
 		type: 'warning'
 	}).then(function() {
-		window.location = '/statusGagalWawancara';
+		window.location = 'statusGagalWawancara';
 	});
 }

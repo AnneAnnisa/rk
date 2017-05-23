@@ -34,7 +34,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html">Halaman Login<br/><b>SILKMMTL</b></a>
+    <a href="login">Halaman Login<br/><b>SILKMMTL</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
@@ -66,7 +66,7 @@
     <!-- /.social-auth-links -->
 
     <!-- <a href="#">I forgot my password</a><br> -->
-    <a href="/register" class="text-center">Daftar Peserta</a>
+    <a href="register" class="text-center">Saya belum daftar</a>
 
   </div>
   <!-- /.login-box-body -->
