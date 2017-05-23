@@ -49,14 +49,10 @@
         <input type="password" class="form-control" placeholder="Password">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
-      <div class="row">
-        <div class="col-xs-8">
-          <div class="checkbox icheck">
-            <label>
-              <input type="checkbox"> Remember Me
-            </label>
-          </div>
-        </div>
+      <div class="form-group">
+        <label>
+          <input type="checkbox"> Remember Me
+        </label>
       </div>
     </form>
 

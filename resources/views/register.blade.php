@@ -89,14 +89,11 @@
 
         <p class="help-block">Format file cv berupa .jpg atau .jpeg dengan ukuran file maksimal 2 Mb</p>
       </div>
-      <div class="row">
-        <div class="col-xs-8">
-          <div class="checkbox icheck">
-            <label>
-              <input type="checkbox"> I agree to the <a href="#">terms</a>
-            </label>
-          </div>
-        </div>
+      <div class="form-group">
+        <label>
+          <input type="checkbox"> I agree to the <a href="#">terms</a>
+        </label>
+      </div>
         <!-- /.col -->
         <!-- <div class="col-xs-4">
           <button type="submit" class="btn btn-primary btn-block btn-flat">Register</button>
