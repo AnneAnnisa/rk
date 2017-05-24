@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta charset="utf-8"> -->
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  
+  
   <title>SI LKMM TL | Registration Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <!-- Tell the browser to be responsive to screen width -->
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"> -->
   <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap.min.css') }}">
   <!-- Font Awesome -->
@@ -17,16 +21,18 @@
   <!-- iCheck -->
   <link rel="stylesheet" href="{{ URL::asset('/plugins/iCheck/square/blue.css') }}">
   <link rel="stylesheet" type="text/css" href="css/sweetalert2.css">
+  
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
   <![endif]-->
 </head>
 <body class="hold-transition register-page">
-<div class="register-box" style="width: 600px">
+<div class="register-box">
   <div class="register-logo">
     <a href="register">Halaman Pendaftaran Peserta<br/><b>SILKMMTL</b></a>
   </div>
