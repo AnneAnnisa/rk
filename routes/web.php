@@ -31,6 +31,10 @@ Route::get('/tambahPenguji', function () {
 	return view('tambahPenguji');
 });
 
+Route::get('/inputWawancara', function () {
+	return view('inputWawancara');
+});
+
 Route::get('/editPenguji', function () {
 	return view('editPenguji');
 });

@@ -72,7 +72,7 @@
                     <td>5114100181</td>
                     <td>Institut Teknologi</td>
                     <td>20 Januari 2017</td>
-                    <td>70</td>
+                    <td>75</td>
                     <td>
                       <!-- TOMBOL WAWANCARA -->
                       <a href="#pendf" class="hehe" id="hehe1" data-temp="1" data-wanid="1" data-toggle="modal" data-target="#hasil1" style="color:orange"\><b>Hasil Wawancara</b></a>
@@ -103,6 +103,7 @@
                               <div id="navbar">
                                 <ul class="navbar1">
                                       <li style="width:10px" class="orang" data-xnilai="70" data-xcom="cukup baik tapi biasa aja"><a href="#">Penguji 1</a></li>
+                                      <li style="width:10px" class="orang" data-xnilai="80" data-xcom="oke"><a href="#">Penguji 2</a></li>
                                 </ul>
                               </div>
                             </div>
@@ -138,7 +139,7 @@
                             </div>
                             <div class="modal-body">
                               <div class="row">
-                                <form method="get" action="{{url('/inputWawancara')}}">
+                                <form method="get" action="{{url('/wawancara')}}">
                                   {{csrf_field()}}
                                   <div class="col-md-6">
                                     <div class="form-group">
