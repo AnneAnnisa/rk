@@ -42,13 +42,13 @@
                   </thead>
                   <tbody>
                   <tr data-divisi="1">
-                    <td>ITS</td>
+                    <td>ITB</td>
                     <td>FTIf</td>
                     <td>Teknik Informatika</td>
                     <td>
-                      <a href="#pend" class="hehedit" id="hehe" data-temp="1" data-pendid="1" data-univ="ITS" data-fak="FTIf" data-jur="Teknik Informatika" data-alamat="Jalan Teknik Kimia no 1" data-telp="03167854632"><span class='fa fa-file' title="lihat data" style="color:navy"></span>  <span class='fa fa-edit' title="edit data" style="color:orange"></span></a>
+                      <a href="#pend" class="hehedit" id="hehe" data-temp="1" data-pendid="1" data-univ="ITB" data-fak="FTIf" data-jur="Teknik Informatika" data-alamat="Jalan Teknik Kimia no 1" data-telp="03167854632"><span class='fa fa-file' title="lihat data" style="color:navy"></span>  <span class='fa fa-edit' title="edit data" style="color:orange"></span></a>
                       <a href="{{url('hapusPendidikan')}}" onclick="event.preventDefault(); document.getElementById('haps-form1').submit();"><span class='fa fa-trash' title="hapus data" style="color:red"></span></a>
-                      <form id="haps-form1" action="{{ url('/hapusPendidikan') }}" method="get" style="display: none;">
+                      <form id="haps-form1" action="{{ url('/pendidikan/hapus') }}" method="POST" style="display: none;">
                           {{ csrf_field() }}
                           <input class="form-control" name="pendidhap" type="text" value="1">
                           <!-- <input class="form-control" name="temp" type="text" value="1"> -->
@@ -169,7 +169,7 @@
       judul.innerHTML='Edit Data Pendidikan';
 
       var formgan = document.getElementById("formganti");
-      formgan.action="{{ url('/editPendidikan')}}";
+      formgan.action="{{ url('/pendidikan/update')}}";
 
       document.getElementById("univ").value=this.dataset.univ;
       document.getElementById("fak").value=this.dataset.fak;

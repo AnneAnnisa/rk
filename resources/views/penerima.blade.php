@@ -76,7 +76,7 @@
                     <td>
                       <!-- TOMBOL WAWANCARA -->
                       <a href="#pendf" class="hehe" id="hehe1" data-temp="1" data-wanid="1" data-toggle="modal" data-target="#hasil1" style="color:orange"\><b>Hasil Wawancara</b></a>
-                      
+                      <a href="{{url('hapusDiterima')}}" onclick=""><span class='fa fa-remove' title="hapus data" style="color:red"></span></a>                      
                     </td>
 
 <!-- MODAL HASIL WAWANCARA -->

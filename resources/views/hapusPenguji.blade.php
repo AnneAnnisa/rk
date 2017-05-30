@@ -49,22 +49,8 @@
                     <td>Boleh</td>
                     <td>
                       <a href="#peng" class="hehedit" id="hehe" data-temp="1" data-nim="536174848595959" data-nama="Ratna" data-telp="0897864232422" data-stat="1"><span class='fa fa-file' title="lihat data" style="color:navy"></span>  <span class='fa fa-edit' title="edit data" style="color:orange"></span></a>
-                      <a href="{{url('hapusPenguji')}}" onclick=""><span class='fa fa-trash' title="hapus data" style="color:red"></span></a>
-                      <form id="haps-form536174848595959" action="{{ url('/penguji/hapus') }}" method="GET" style="display: none;">
-                          {{ csrf_field() }}
-                          <input class="form-control" name="pendidhap" type="text" value="536174848595959">
-                          <!-- <input class="form-control" name="temp" type="text" value="1"> -->
-                      </form>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Adi</td>
-                    <td>53617486775759</td>
-                    <td>0812364232422</td>
-                    <td>Boleh</td>
-                    <td>
-                      <a href="#peng" class="hehedit" id="hehe" data-temp="1" data-nim="53617486775759" data-nama="Adi" data-telp="0812364232422" data-stat="1"><span class='fa fa-file' title="lihat data" style="color:navy"></span>  <span class='fa fa-edit' title="edit data" style="color:orange"></span></a>
-                      <a href="{{url('hapusPenguji')}}" onclick=""><span class='fa fa-trash' title="hapus data" style="color:red"></span></a>
+                      <a href="#hap" onclick="event.preventDefault(); document.getElementById('haps-form536174848595959').submit();"><span class='fa fa-trash' title="hapus data" style="color:red"></span></a>
+                      
                     </td>
                   </tr>
                   <tr>
@@ -75,7 +61,7 @@
                     <td>
                       <a href="#peng" class="hehedit" id="hehe" data-temp="1" data-nim="55683715987678" data-nama="Wahyu" data-telp="0812368976452" data-stat="1"><span class='fa fa-file' title="lihat data" style="color:navy"></span>  <span class='fa fa-edit' title="edit data" style="color:orange"></span></a>
                       <a href="#hap" onclick="event.preventDefault(); document.getElementById('haps-form55683715987678').submit();"><span class='fa fa-trash' title="hapus data" style="color:red"></span></a>
-                      <form id="haps-form55683715987678" action="{{ url('/penguji/hapus') }}" method="GET" style="display: none;">
+                      <form id="haps-form55683715987678" action="{{ url('/penguji/hapus') }}" method="POST" style="display: none;">
                           {{ csrf_field() }}
                           <input class="form-control" name="pendidhap" type="text" value="55683715987678">
                           <!-- <input class="form-control" name="temp" type="text" value="1"> -->
@@ -89,8 +75,8 @@
                     <td>Boleh</td>
                     <td>
                       <a href="#peng" class="hehedit" id="hehe" data-temp="1" data-nim="5361748673654" data-nama="Tono" data-telp="089876245366" data-stat="1"><span class='fa fa-file' title="lihat data" style="color:navy"></span>  <span class='fa fa-edit' title="edit data" style="color:orange"></span></a>
-                      <a href="{{url('hapusPenguji')}}" onclick=""><span class='fa fa-trash' title="hapus data" style="color:red"></span></a>
-                      <form id="haps-form5361748673654" action="{{ url('/penguji/hapus') }}" method="GET" style="display: none;">
+                      <a href="#hap" onclick="event.preventDefault(); document.getElementById('haps-form5361748673654').submit();"><span class='fa fa-trash' title="hapus data" style="color:red"></span></a>
+                      <form id="haps-form5361748673654" action="{{ url('/penguji/hapus') }}" method="POST" style="display: none;">
                           {{ csrf_field() }}
                           <input class="form-control" name="pendidhap" type="text" value="5361748673654">
                           <!-- <input class="form-control" name="temp" type="text" value="1"> -->
@@ -115,7 +101,7 @@
                 <h3 class="box-title" id="ganti-judul" data-tambah="0">Tambah Data Penguji</h3>
                 <div class="row" >        
                   <div class="col-md-12">
-                    <form action="{{ url('/tambahPenguji')}}" method="GET" id="formganti" style="margin-bottom:0;">
+                    <form action="{{ url('/tambahPenguji')}}" method="get" id="formganti" style="margin-bottom:0;">
                       <div class="box-body">
                         {{ csrf_field() }}
 
@@ -210,7 +196,7 @@
       judul.innerHTML='Edit Data Penguji';
 
       var formgan = document.getElementById("formganti");
-      formgan.action="{{ url('/editPenguji')}}";
+      formgan.action="{{ url('/penguji/update')}}";
 
       document.getElementById("nim").value=this.dataset.nim;
       document.getElementById("nimubah").value=this.dataset.nim;

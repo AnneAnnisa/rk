@@ -138,7 +138,7 @@
                             </div>
                             <div class="modal-body">
                               <div class="row">
-                                <form method="post" action="{{url('/wawancara')}}">
+                                <form method="get" action="{{url('/wawancara')}}">
                                   {{csrf_field()}}
                                   <div class="col-md-6">
                                     <div class="form-group">
@@ -188,7 +188,7 @@
                             </div>
                             <div class="modal-body">
                               <div class="row">
-                                <form method="post" action="#">
+                                <form method="get" action="#">
                                   <input type="hidden" name="id_pendaftar" value="1">
                                   <div class="col-md-6">
                                     <div class="form-group">

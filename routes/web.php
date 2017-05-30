@@ -15,8 +15,36 @@ Route::get('/', function () {
     return view('register');
 });
 
+Route::get('/', function () {
+    return view('register');
+});
+
+Route::get('/hapusPenguji', function () {
+	return view('hapusPenguji');
+});
+
+Route::get('/editPendidikan', function () {
+	return view('editPendidikan');
+});
+
+Route::get('/tambahPenguji', function () {
+	return view('tambahPenguji');
+});
+
+Route::get('/editPenguji', function () {
+	return view('editPenguji');
+});
+
 Route::get('/login', function () {
 	return view('login');
+});
+
+Route::get('/hapusPendidikan', function () {
+	return view('hapusPendidikan');
+});
+
+Route::get('/hapusDiterima', function () {
+	return view('hapusDiterima');
 });
 
 Route::get('/register', function () {

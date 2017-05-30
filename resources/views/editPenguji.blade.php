@@ -58,7 +58,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td>Adi</td>
+                    <td>Edi</td>
                     <td>53617486775759</td>
                     <td>0812364232422</td>
                     <td>Boleh</td>
@@ -115,7 +115,7 @@
                 <h3 class="box-title" id="ganti-judul" data-tambah="0">Tambah Data Penguji</h3>
                 <div class="row" >        
                   <div class="col-md-12">
-                    <form action="{{ url('/tambahPenguji')}}" method="GET" id="formganti" style="margin-bottom:0;">
+                    <form action="{{ url('/penguji/tambah')}}" method="POST" id="formganti" style="margin-bottom:0;">
                       <div class="box-body">
                         {{ csrf_field() }}
 
@@ -249,3 +249,4 @@
 
 
 @endsection
+  
