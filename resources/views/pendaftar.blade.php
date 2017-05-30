@@ -272,7 +272,6 @@
             <td>
               <label style="color:orange">WAIT</label>
               <a href="#pendf" class="hehe" id="hehe1" data-temp="1" data-pendid="1" data-toggle="modal" data-target="#nilai1" \=""><span class="fa fa-file" title="lihat data" style="color:navy"></span></a>
-              <a href="#hap" onclick="event.preventDefault(); document.getElementById('haps-form1').submit();"><span class="fa fa-trash" title="hapus data" style="color:red"></span></a>
               <form id="haps-form1" action="http://localhost/silkmmtl/public/pendaftar/hapus" method="POST" style="display: none;">
                 <input name="_token" value="w2W31wikeOQ3KhCqiQ6DkksQDePWYPHMH0YUV9Fr" type="hidden">
                 <input class="form-control" name="pendidhap" value="1" type="text">
